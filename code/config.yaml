@@ -1,0 +1,1865 @@
+# - authenticate:
+#     url: http://101.101.63.15:5000/api/authenticate
+#     payload: "grant_type=password&username=perf_test&password=vC3m.123!"
+#     headers: 
+#       Content-Type : "application/x-www-form-urlencoded"
+#       Authorization: "Basic dmNlbTpmcmVlQGMkMSE="
+
+
+#   device_data:
+#     - device_id: "BOT000001"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000001"
+#       headers: 
+#         Content-Type : "application/json"
+
+#     - device_id: "BOT000002"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000002"
+#       headers: 
+#         Content-Type : "application/json"     
+
+#     - device_id: "BOT000003"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000003"
+#       headers: 
+#         Content-Type : "application/json"  
+
+#     - device_id: "BOT000004"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000004"
+#       headers: 
+#         Content-Type : "application/json"   
+
+#     - device_id: "BOT000005"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000005"
+#       headers: 
+#         Content-Type : "application/json"  
+
+#     - device_id: "BOT000006"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000006"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000007"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000007"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT000008"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000008"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000009"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000009"
+#       headers: 
+#         Content-Type : "application/json"   
+        
+#     - device_id: "BOT000010"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000010"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT000011"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000011"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT000012"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000012"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT000013"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000013"
+#       headers: 
+#         Content-Type : "application/json"
+          
+#     - device_id: "BOT000014"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000014"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000015"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000015"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000016"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000016"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000017"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000017"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000018"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000018"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000019"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000019"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000010"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000020"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000021"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000021"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000022"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000022"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#       - device_id: "BOT000023"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000023"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000024"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000024"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT000025"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000025"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT000026"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000026"
+#       headers: 
+#         Content-Type : "application/json"   
+        
+#     - device_id: "BOT000027"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000027"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000028"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000028"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT000029"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000029"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000030"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000030"
+#       headers: 
+#         Content-Type : "application/json"   
+        
+#      - device_id: "BOT000031"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000031"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT000032"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000032"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000033"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000033"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000034"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000034"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000035"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000035"
+#       headers: 
+#         Content-Type : "application/json"   
+        
+#    - device_id: "BOT000036"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000036"
+#       headers: 
+#         Content-Type : "application/json"   
+        
+#     - device_id: "BOT000037"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000037"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000038"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000038"
+#       headers: 
+#         Content-Type : "application/json"   
+        
+#     - device_id: "BOT000039"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000039"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000040"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000040"
+#       headers: 
+#         Content-Type : "application/json"    
+        
+#     - device_id: "BOT0000BOT000041"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000041"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000042"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000042"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000043"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000043"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000044"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000044"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000045"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000045"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000046"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000046"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000047"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000047"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000048"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000048"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#     - device_id: "BOT000049"
+#       url: "http://101.101.63.15:5000/api/devices/BOT000049"
+#       headers: 
+#         Content-Type : "application/json"
+        
+#             - device_id: "BOT000050"
+#       url: "http://101.101.63.15:5000/api/devices/G402121072028850"
+#       headers: 
+#         Content-Type : "application/json"                
+
+#   get_parameters_values:
+#     - device_id: "BOT000001"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000001"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"  
+
+#     - device_id: "BOT000002"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000002"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"      
+
+#     - device_id: "BOT000003"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000003"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json" 
+
+#     - device_id: "BOT000004"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000004"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"   
+
+#     - device_id: "BOT000005"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000005"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json" 
+
+#     - device_id: "BOT000006"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000006"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"   
+
+#     - device_id: "BOT000007"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000007"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+
+#     - device_id: "BOT000008"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000008"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+
+#     - device_id: "BOT000009"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000009"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+
+#     - device_id: "BOT000010"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000010"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+
+        
+#     - device_id: "BOT000011"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000011"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000012"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000012"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000013"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000013"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000014"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000014"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000015"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000015"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000016"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000016"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000017"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000017"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000018"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000018"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000019"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000019"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000020"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000020"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000021"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000021"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000022"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000022"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000023"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000023"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+
+#     - device_id: "BOT000024"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000024"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000025"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000025"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000026"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000026"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000027"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000027"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000028"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000028"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000029"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000029"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000030"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000030"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000031"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000031"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000032"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000032"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000033"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000033"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000034"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000034"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000035"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000035"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000036"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000036"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000037"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000037"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000038"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000038"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000039"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000039"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000040"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000040"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000041"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000041"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000042"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000042"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000043"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000043"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000044"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000044"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000045"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000045"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000046"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000046"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000047"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000047"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000048"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000048"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000049"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000049"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+        
+#     - device_id: "BOT000050"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/BOT000050"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"
+
+                
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#--------------final------------------
+- authenticate:
+    url: http://101.101.63.49/api/authenticate
+    payload: "grant_type=password&username=perf_test&password=vC3m.123!"
+    headers: 
+      Content-Type : "application/x-www-form-urlencoded"
+      Authorization: "Basic dmNlbTpmcmVlQGMkMSE="
+
+
+  device_data:
+    - device_id: "BOT010235"
+      url: "http://101.101.63.49/api/devices/1878D4-vSpeed-NUC-simulator-BOT000010"
+      headers: 
+        Content-Type : "application/json"
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+    - device_id: "BOT000001"
+      url: "http://101.101.63.15:5000/api/devices/1878D4-vSpeed-NUC-simulator-BOT000001"
+      headers: 
+        Content-Type : "application/json"     
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+    - device_id: "ABJ22300043"
+      url: "http://101.101.63.15:5000/api/devices/1878D4-vSpeed-NUC-simulator-BOT000002"
+      headers: 
+        Content-Type : "application/json"  
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+    - device_id: "ABJ40101357"
+      url: "http://101.101.63.15:5000/api/devices/1878D4-vSpeed-NUC-simulator-BOT000003"
+      headers: 
+        Content-Type : "application/json"   
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+    - device_id: "G402121072028818"
+      url: "http://101.101.63.15:5000/api/devices/1878D4-vSpeed-NUC-simulator-BOT000004"
+      headers: 
+        Content-Type : "application/json"                  
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+  get_parameters_values:
+    - device_id: "BOT000001"
+      url: "http://101.101.63.49/api/tr069/getParameterValues/1878D4-vSpeed-NUC-simulator-BOT000010?async=false"
+      payload:
+        options:
+          priority: 100
+          # executionTimeoutSeconds: 60
+          expirationTimeoutSeconds: 100
+          updateCachedDataRecord: true
+          disableCaptureConstraint: true
+          # failOnConnectionRequestFailure: false
+          triggerCR: true
+          # operationTimeout: 30000
+        function:  
+          name: "getParameterValues"
+          parameterNames:
+            - "Device.DeviceInfo.Manufacturer"
+          operationTimeout: 30000
+      headers:
+        Content-Type: "application/json"  
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+    - device_id: "BOT000002"
+      url: "http://101.101.63.49/api/tr069/getParameterValues/1878D4-vSpeed-NUC-simulator-BOT000011?async=false"
+      payload:
+        options:
+          priority: 100
+          # executionTimeoutSeconds: 60
+          expirationTimeoutSeconds: 100
+          updateCachedDataRecord: true
+          disableCaptureConstraint: true
+          # failOnConnectionRequestFailure: false
+          triggerCR: true
+          # operationTimeout: 30000
+        function:  
+          name: "getParameterValues"
+          parameterNames:
+            - "Device.DeviceInfo.Manufacturer"
+          operationTimeout: 30000
+      headers:
+        Content-Type: "application/json"  
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+    - device_id: "BOT000003"
+      url: "http://101.101.63.49/api/tr069/getParameterValues/1878D4-vSpeed-NUC-simulator-BOT000012?async=false"
+      payload:
+        options:
+          priority: 100
+          # executionTimeoutSeconds: 60
+          expirationTimeoutSeconds: 100
+          updateCachedDataRecord: true
+          disableCaptureConstraint: true
+          # failOnConnectionRequestFailure: false
+          triggerCR: true
+          # operationTimeout: 30000
+        function:  
+          name: "getParameterValues"
+          parameterNames:
+            - "Device.DeviceInfo.Manufacturer"
+          operationTimeout: 30000
+      headers:
+        Content-Type: "application/json"  
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+    - device_id: "BOT000004"
+      url: "http://101.101.63.49/api/tr069/getParameterValues/1878D4-vSpeed-NUC-simulator-BOT000013?async=false"
+      payload:
+        options:
+          priority: 100
+          # executionTimeoutSeconds: 60
+          expirationTimeoutSeconds: 100
+          updateCachedDataRecord: true
+          disableCaptureConstraint: true
+          # failOnConnectionRequestFailure: false
+          triggerCR: true
+          # operationTimeout: 30000
+        function:  
+          name: "getParameterValues"
+          parameterNames:
+            - "Device.DeviceInfo.Manufacturer"
+          operationTimeout: 30000
+      headers:
+        Content-Type: "application/json"  
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+    - device_id: "BOT000005"
+      url: "http://101.101.63.49/api/tr069/getParameterValues/1878D4-vSpeed-NUC-simulator-BOT000014?async=false"
+      payload:
+        options:
+          priority: 100
+          # executionTimeoutSeconds: 60
+          expirationTimeoutSeconds: 100
+          updateCachedDataRecord: true
+          disableCaptureConstraint: true
+          # failOnConnectionRequestFailure: false
+          triggerCR: true
+          # operationTimeout: 30000
+        function:  
+          name: "getParameterValues"
+          parameterNames:
+            - "Device.DeviceInfo.Manufacturer"
+          operationTimeout: 30000
+      headers:
+        Content-Type: "application/json"  
+        Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+  # set_parameters_values:
+  #   - device_id: "ABA23801590"
+  #     url: "http://101.101.63.49/api/tr069/setParameterValues/1878D4-vSpeed-NUC-simulator-BOT010247?async=false"
+  #     payload:
+  #       options:
+  #         priority: 100
+  #         expirationTimeoutSeconds: 180
+  #         updateCachedDataRecord: true
+  #         disableCaptureConstraint: true
+  #         triggerCR: true
+  #       function:  
+  #         name: "SetParameterValues"
+  #         parameters:
+  #           - name: "Device.DeviceInfo.Manufacturer"
+  #             type: "string"
+  #             value: "Verizon"
+  #             notificationChange: False
+  #     headers:
+  #       Content-Type: "application/json"  
+  #       Authorization: "Basic cGVyZl90ZXN0OnZDM20uMTIzIQ=="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# - authenticate:
+#     url: http://101.101.63.15:5000/api/authenticate
+#     payload: "grant_type=password&username=perf_test&password=vC3m.123!"
+#     headers: 
+#       Content-Type : "application/x-www-form-urlencoded"
+#       Authorization: "Basic dmNlbTpmcmVlQGMkMSE="
+
+
+#   device_data:
+#     - name: "device 1"
+#       url: "http://101.101.63.15:5000/api/devices/ABA23801332"
+#       headers: 
+#         Content-Type : "application/json"
+
+#     - name: "device 2"
+#       url: "http://101.101.63.15:5000/api/devices/JRPN032000W1"
+#       headers: 
+#         Content-Type : "application/json"     
+
+#     - name: "device 3"
+#       url: "http://101.101.63.15:5000/api/devices/M91901PV2397"
+#       headers: 
+#         Content-Type : "application/json"  
+
+#     - name: "device 4"
+#       url: "http://101.101.63.15:5000/api/devices/M91845EJG564"
+#       headers: 
+#         Content-Type : "application/json"                     
+
+#   get_parameters_values:
+#     - device_id: "ABA23801332"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/ABA23801332"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"  
+
+#     - device_id: "JRPN032000W1"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/JRPN032000W1"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"      
+
+#     - device_id: "M91901PV2397"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/M91901PV2397"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json" 
+
+#     - device_id: "ABJ40101357"
+#       url: "http://101.101.63.15:5000/api/tr069/getParameterValues/"
+#       payload:
+#         options:
+#           priority: 100
+#           executionTimeoutSeconds: 60
+#           expirationTimeoutSeconds: 60
+#           updateCachedDataRecord: false
+#           disableCaptureConstraint: true
+#           failOnConnectionRequestFailure: false
+#           triggerCR: true
+#         function:  
+#           name: "GetParameterValues"
+#           parameterNames:
+#             - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#       headers:
+#         Content-Type: "application/json"                 
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#---------draft 1------------
+
+# - authenticate:
+#     url: http://101.101.63.15:5000/api/authenticate
+#     payload: "grant_type=password&username=perf_test&password=vC3m.123!"
+#     headers: 
+#       Content-Type : "application/x-www-form-urlencoded"
+#       Authorization: "Basic dmNlbTpmcmVlQGMkMSE="
+
+
+#   device_data:
+#     url: "http://101.101.63.15:5000/api/devices/AAK12100150"
+#     headers: 
+#       Content-Type : "application/json"
+
+#   get_parameters_values:
+#     url: "http://101.101.63.15:5000/api/tr069/getParameterValues/AAK12100150"
+#     payload:
+#       options:
+#         priority: 100
+#         executionTimeoutSeconds: 60
+#         expirationTimeoutSeconds: 60
+#         updateCachedDataRecord: false
+#         disableCaptureConstraint: true
+#         failOnConnectionRequestFailure: false
+#         triggerCR: true
+#       function:  
+#         name: "GetParameterValues"
+#         parameterNames:
+#           - "InternetGatewayDevice.Time."
+#         operationTimeout: 30000
+#     headers:
+#       Content-Type: "application/json"      
+
+
+
+
