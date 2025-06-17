@@ -1,0 +1,45 @@
+authenticate:
+  url: http://101.101.64.49/api/authenticate
+  payload: "grant_type=password&username=perf_test&password=vC3m.123!"
+  headers: 
+    Content-Type : "application/x-www-form-urlencoded"
+    Authorization: "Basic dmNlbTpmcmVlQGMkMSE="
+
+   
+
+gpv:
+  url: "http://101.101.64.15:5000/api/tr069/getParameterValues/1878D4-vSpeed-NUC-simulator-{device_id}?async=false"
+  headers:
+    Content-Type: "application/json"
+  payload: 
+    options: 
+      priority: 100
+      expirationTimeoutSeconds: 60
+      updateCachedDataRecord: True
+      disableCaptureConstraint: True
+      triggerCR: True
+    function: 
+      name: "getParameterValues"
+      parameterNames: 
+        - "Device.DeviceInfo.Manufacturer"
+      operationTimeout: 30000
+
+
+spv:
+  url: "http://101.101.64.49/api/tr069/setParameterValues/1878D4-vSpeed-NUC-simulator-{device_id}?async=false"
+  headers:
+    Content-Type: "application/json"
+  payload: 
+    options:
+      priority: 100
+      expirationTimeoutSeconds: 180
+      updateCachedDataRecord: true
+      disableCaptureConstraint: true
+      triggerCR: true
+    function:
+      name: "SetParameterValues"
+      parameters:
+        - name: "System.X_FREEACS-COM.CAPTURE_ALL_COMMUNICATION"
+          type: "string"
+          value: "0"
+          notificationChange: false
