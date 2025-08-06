@@ -1,5 +1,5 @@
 pyyaml
 requests
 rich
-threading
 urllib3
+influxdb-client
