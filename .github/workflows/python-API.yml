@@ -26,5 +26,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt # install packages
 
-      - name: Run the python script
-        run: python sync.py
+      - name: Run the python script from subfolder
+        run: python synchronus/sync.py --config synchronus/cfg.yaml
