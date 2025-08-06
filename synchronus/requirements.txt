@@ -1,6 +1,5 @@
 pyyaml
 requests
 rich
-time
 threading
 urllib3
